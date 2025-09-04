@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: DCOR - Dual Contrastive Reconstruction for Graph Anomaly Detection
+message: "If you use this software, please cite the paper."
+authors:
+  - family-names: Rafieizadeh
+    given-names: Hossein
+  - family-names: Zare
+    given-names: Hadi
+  - family-names: Ghassemi Parsa
+    given-names: Mohsen
+repository-code: https://github.com/Hossein1998/dcor-graph-anomaly-detection
+license: MIT
