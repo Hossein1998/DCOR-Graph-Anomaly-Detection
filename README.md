@@ -10,7 +10,7 @@ Official implementation of **DCOR** — dual autoencoders with reconstruction-le
 ## Overview
 
 <p align="center">
-  <img src="docs/docs/dcor_augmentations.png" alt="Augmentation pipeline" width="85%">
+  <img src="docs/dcor_augmentations.png" alt="Augmentation pipeline" width="85%">
 </p>
 
 **Figure 1 — Augmentation pipeline.**  
@@ -19,7 +19,7 @@ From an attributed network \(G=\{A,X\}\), we generate augmented views \(G'=\{A',
 ---
 
 <p align="center">
-  <img src="docs/docs/dcor_architecture.png" alt="DCOR architecture" width="85%">
+  <img src="docs/dcor_architecture.png" alt="DCOR architecture" width="85%">
 </p>
 
 **Figure 2 — DCOR architecture.**  
