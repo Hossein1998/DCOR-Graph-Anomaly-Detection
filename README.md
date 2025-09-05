@@ -2,15 +2,10 @@
 
 Official implementation of **DCOR** — dual autoencoders with reconstruction-level contrast (RLC) for anomaly detection in attributed graphs.
 
-> This repository generalizes our single-dataset prototype to support **multiple datasets** (Amazon, Facebook, Flickr, ACM, Reddit, Enron) via **YAML configs**.  
-> It includes a clean package layout, augmentation operators, learnable margin, training/eval scripts, and ready-to-run configs.
-
----
-
 ## Overview
 
 <p align="center">
-  <img src="docs/dcor_augmentations.png" alt="Augmentation pipeline" width="85%">
+  <img src="docs/dcor_augmentations.png" alt="Augmentation pipeline" width="90%">
 </p>
 
 **Figure 1 — Augmentation pipeline.**  
@@ -51,9 +46,3 @@ python eval.py  --dataset amazon --ckpt outputs/amazon/best.ckpt
 - Reconstruction-level contrast with **learnable margin `m`**.
 - Configurable **augmentation budgets** for structure/features.
 - AUROC-based evaluation with paper-style anomaly score.
-
-## Citation
-If you use this code or processed datasets, please cite the DCOR paper.
-
-## License
-MIT
