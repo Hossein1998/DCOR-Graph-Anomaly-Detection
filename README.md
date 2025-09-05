@@ -8,7 +8,6 @@ Official implementation of **DCOR**, which uses dual autoencoders with reconstru
   <img src="docs/dcor_augmentations.png" alt="Augmentation pipeline" width="90%">
 </p>
 
-**Figure 1 — Augmentation pipeline.**  
 From an attributed network, we generate augmented views using structural operations (node isolation, clique injection) and attribute operations (scaling, copying, masking).
 
 ---
@@ -17,7 +16,6 @@ From an attributed network, we generate augmented views using structural operati
   <img src="docs/dcor_architecture.png" alt="DCOR architecture" width="85%">
 </p>
 
-**Figure 2 — DCOR architecture.**  
 A shared GAT encoder produces embeddings used by two decoders: an inner-product structure decoder and a linear attribute decoder.
 Reconstruction-level contrast (RLC) aligns reconstructions for unperturbed nodes and enforces a margin for perturbed nodes, driving anomaly separation.
 
