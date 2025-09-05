@@ -1,4 +1,4 @@
-# DCOR: Dual Contrastive Reconstruction for Graph Anomaly Detection
+# Dual contrastive learning-based reconstruction for anomaly detection in attributed networks (DCOR)
 
 Official implementation of **DCOR** — dual autoencoders with reconstruction-level contrast (RLC) for anomaly detection in attributed graphs.
 
@@ -10,7 +10,7 @@ Official implementation of **DCOR** — dual autoencoders with reconstruction-le
 ## Overview
 
 <p align="center">
-  <img src="docs/figs/dcor_augmentations.png" alt="Augmentation pipeline" width="85%">
+  <img src="docs/docs/dcor_augmentations.png" alt="Augmentation pipeline" width="85%">
 </p>
 
 **Figure 1 — Augmentation pipeline.**  
@@ -19,7 +19,7 @@ From an attributed network \(G=\{A,X\}\), we generate augmented views \(G'=\{A',
 ---
 
 <p align="center">
-  <img src="docs/figs/dcor_architecture.png" alt="DCOR architecture" width="85%">
+  <img src="docs/docs/dcor_architecture.png" alt="DCOR architecture" width="85%">
 </p>
 
 **Figure 2 — DCOR architecture.**  
