@@ -33,13 +33,7 @@ Place raw files under `data/raw/<dataset>/` (e.g., `.mat` or `.npz` containing `
 python scripts/process_mat_to_npz.py --in data/raw/amazon/amazon.mat --out data/processed/amazon.npz
 ```
 
-### Dataset statistics (Table 3)
-
-**Table 3 (paper):** Summary of the datasets used—node/edge/feature counts, domain, and anomaly ratio.
-
-<p align="center">
-  <img src="docs/datasets_table.png" alt="Dataset statistics and anomaly ratios" width="85%">
-</p>
+### Dataset statistics
 
 | Dataset  | Nodes | Edges   | Attributes | Domain              | Anomaly |
 |:--------:|------:|--------:|-----------:|---------------------|--------:|
