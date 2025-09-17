@@ -33,6 +33,24 @@ Place raw files under `data/raw/<dataset>/` (e.g., `.mat` or `.npz` containing `
 python scripts/process_mat_to_npz.py --in data/raw/amazon/amazon.mat --out data/processed/amazon.npz
 ```
 
+### Dataset statistics (Table 3)
+
+**Table 3 (paper):** Summary of the datasets used—node/edge/feature counts, domain, and anomaly ratio.
+
+<p align="center">
+  <img src="docs/datasets_table.png" alt="Dataset statistics and anomaly ratios" width="85%">
+</p>
+
+| Dataset  | Nodes | Edges   | Attributes | Domain              | Anomaly |
+|:--------:|------:|--------:|-----------:|---------------------|--------:|
+| Enron    | 13,533| 176,987 | 18         | Email network       | 0.04%   |
+| Amazon   | 1,418 | 3,695   | 21         | Co-purchase network | 1.97%   |
+| Facebook | 4,039 | 88,234  | 576        | Social network      | 9.9%    |
+| Flickr   | 7,575 | 239,738 | 12,407     | Social network      | 5.9%    |
+| ACM      | 16,484| 71,980  | 8,337      | Citation network    | 3.6%    |
+| Reddit   | 10,984| 168,016 | 64         | Discussion forum    | 3.3%    |
+
+
 ## Quick Start (Amazon)
 ```bash
 python train.py --dataset amazon --config configs/amazon.yaml
