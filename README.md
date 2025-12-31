@@ -73,8 +73,3 @@ DOI: 10.1371/journal.pone.0335135
   doi     = {10.1371/journal.pone.0335135},
   url     = {https://doi.org/10.1371/journal.pone.0335135}
 }
-## Key ideas
-- Shared GNN encoder; structure decoder (inner product) + attribute decoder (linear).
-- Reconstruction-level contrast with **learnable margin `m`**.
-- Configurable **augmentation budgets** for structure/features.
-- AUROC-based evaluation with paper-style anomaly score.
