@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "DCOR-Graph-Anomaly-Detection"
+type: software
+url: "https://github.com/Hossein1998/DCOR-Graph-Anomaly-Detection"
+
+authors:
+  - family-names: "Rafieizadeh"
+    given-names: "Hossein"
+    orcid: "https://orcid.org/0009-0005-3409-3158"
+  - family-names: "Zare"
+    given-names: "Hadi"
+    orcid: "https://orcid.org/0000-0001-6559-0601"
+  - family-names: "Ghassemi Parsa"
+    given-names: "Mohsen"
+    orcid: "https://orcid.org/0000-0002-9537-1255"
+  - family-names: "Cherifi"
+    given-names: "Hocine"
+
+preferred-citation:
+  type: article
+  title: "Dual contrastive learning-based reconstruction for anomaly detection in attributed networks"
+  authors:
+    - family-names: "Rafieizadeh"
+      given-names: "Hossein"
+    - family-names: "Zare"
+      given-names: "Hadi"
+    - family-names: "Ghassemi Parsa"
+      given-names: "Mohsen"
+    - family-names: "Cherifi"
+      given-names: "Hocine"
+  journal: "PLOS ONE"
+  year: 2025
+  volume: 20
+  issue: 11
+  pages: "e0335135"
+  doi: "10.1371/journal.pone.0335135"
+  date-published: "2025-11-24"
