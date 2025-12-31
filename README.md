@@ -50,7 +50,29 @@ python scripts/process_mat_to_npz.py --in data/raw/amazon/amazon.mat --out data/
 python train.py --dataset amazon --config configs/amazon.yaml
 python eval.py  --dataset amazon --ckpt outputs/amazon/best.ckpt
 ```
+## Paper
 
+This repository accompanies the paper:
+
+**Hossein Rafieizadeh, Hadi Zare, Mohsen Ghassemi Parsa, Hocine Cherifi (2025)**  
+*Dual contrastive learning-based reconstruction for anomaly detection in attributed networks.*  
+PLOS ONE, 20(11): e0335135.  
+DOI: 10.1371/journal.pone.0335135
+
+### How to cite
+
+```bibtex
+@article{rafieizadeh2025dcor_plosone,
+  title   = {Dual contrastive learning-based reconstruction for anomaly detection in attributed networks},
+  author  = {Rafieizadeh, Hossein and Zare, Hadi and Ghassemi Parsa, Mohsen and Cherifi, Hocine},
+  journal = {PLOS ONE},
+  volume  = {20},
+  number  = {11},
+  pages   = {e0335135},
+  year    = {2025},
+  doi     = {10.1371/journal.pone.0335135},
+  url     = {https://doi.org/10.1371/journal.pone.0335135}
+}
 ## Key ideas
 - Shared GNN encoder; structure decoder (inner product) + attribute decoder (linear).
 - Reconstruction-level contrast with **learnable margin `m`**.
